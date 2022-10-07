@@ -1,0 +1,133 @@
+body {
+    width: 80%;
+    margin: 30px auto;
+    border: 2px solid blue;
+    height: auto;
+}
+.header{
+    margin: 10px auto;
+    border: 2px solid green;
+    width: 80%;
+    height: auto;
+    text-align: center;
+
+}
+.image{
+    /* display: flex; */
+    text-align: center;
+    /* border: 1px solid blueviolet; */
+    width: 100%;
+    margin: auto;
+}
+.scorecard-wrapper{
+    width: 80%;
+    height: auto;
+    border: 2px double black;
+    margin: 30px auto;
+}
+.schoolinfo{
+    border: 2px solid red;
+    height: 120px;
+    /* margin: 10px;
+    padding: 20px; */
+    padding-left: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.schoolinfo > p{
+    position: relative;
+    top: 20px;
+    font-size: 1.5em;
+}
+.scoreinfo{
+    border: 2px double pink;
+    width: 95%;
+    height: 500px;
+    margin: 10px auto;
+    display: flex;
+}
+.round{
+    border: 2px solid blue;
+    margin: 10px 5px;
+    width: 100%;
+    height: auto;
+}
+.round-heading{
+    margin: 5px 3px;
+    border: 2px solid black;
+    height: 15%;
+    text-align: center;
+    background-color: red;
+}
+.round-heading > span {
+    position: relative;
+    font-weight: bold;
+    top:17px;
+    font-size: 1.5em;
+    color: whitesmoke;
+    
+}
+.round-body{
+    margin: 5px 3px;
+    border: 2px solid black;
+    height: auto;
+}
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
+/* tr{
+    text-align: center;
+    border: 1px solid black;
+} */
+table tr:nth-child(odd){background-color: #f2f2f2;}
+th{
+    border: 3px solid #ddd;
+    padding: 8px;
+    width: 50%;
+    background-color: green;
+    color: whitesmoke;
+}
+td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 50%;
+}
+
+.footer{
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+    border: 2px double black;
+}
+/* breakdown css */
+.breakdown-body{
+    width:98%;
+    border: 2px solid red;
+    height: auto;
+    text-align: center;
+    margin: 10px;
+}
+.breakheader{
+    width: 80%;
+    border: 2px solid black;
+    height: fit-content;
+    margin: 10px auto;
+    background-color: red;
+}
+.bdy{
+    width: 100%;
+    border: 2px solid purple;
+    height: auto;
+    display: flex;
+    margin: 10px auto;
+}
+.colum{
+    border: 2px dashed blue;
+    width: 98%;
+    margin: 2px 10px;
+}
